@@ -1,7 +1,3 @@
-//Tarkov Superman Training Bot
-//Version: FA.2.1
-//Auther: 
-//Display resolution requirements: No specific requirements, but must be 16:9, for example : (1600*900),(1920*1080),(2560*1440)
 #include "HID-Project.h" 
 //Declare usage of HID-Project.h library in this project. 
 //This project use HID-Project.h library for controlling the movement output to USB host via features that it provided including "Absolute Positioning Mouse" "Relative Positioning Mouse" "Keyboard" 
