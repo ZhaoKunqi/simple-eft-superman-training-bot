@@ -84,7 +84,7 @@ void covertMovementCycle(){
 
 
 void startWalking(){
-  Keyboard.press('w');//I am afraid that only people who have lost advanced cognitive abilities will fail to understand the meaning of this line of code.
+  Keyboard.press('w');//simply going forward~
 }
 void startRunning(){
   Keyboard.press('w');
@@ -93,7 +93,7 @@ void startRunning(){
 }
 
 void resetMoving(){
-  Keyboard.releaseAll();//I am afraid that only people who have lost advanced cognitive abilities will fail to understand the meaning of this line of code.
+  Keyboard.releaseAll();//Release all key to stop current moving.
 }
 void enterRaid(){
   delay(300);
@@ -101,15 +101,16 @@ void enterRaid(){
   clickLeftMouseButton();
   AbsoluteMouse.moveTo(0, 23210); //Move to "NEXT" button
   clickLeftMouseButton();
-  AbsoluteMouse.moveTo(-13030,-1547); //Move to default "Shoreline" button
+  AbsoluteMouse.moveTo(-13030,-1547); //Move to default "Reserve" button
   //Also you can modified map selection movement by yourself.
   //There is a coordinate list of maps in the game:
   //Interchange (-307,-14700)
   //Woods (-9728,-12242)
   //Customs(-2688,-10922)
-  //Factory(-7552,-5961) wtf ? are you sure about that ?
+  //Factory(-7552,-5961)  this is a bit stupid tbh, but you can try that out lol
   //Reserve(-13030,-1547)
   //Shoreline (-9728, 10467)
+  //I never played tarkov after lighthouse patch, so feel free add lighthouse coordinate yourself by TarkovBotCoordinateConverter.py
   clickLeftMouseButton();
   AbsoluteMouse.moveTo(10163, 28535); //Move to "Ready" button
   clickLeftMouseButton();
@@ -131,6 +132,6 @@ void backToLobby(){
 }
 void clickLeftMouseButton(){
   delay(300);
-  AbsoluteMouse.click();//I am afraid that only people who have lost advanced cognitive abilities will fail to understand the meaning of this line of code.
+  AbsoluteMouse.click();//Just click~
   delay(300);
 }
