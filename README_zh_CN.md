@@ -1,3 +1,5 @@
+好心人帮我翻译一下求你了
+
 # 逃离塔科夫: 超级凶狠跑刀崽全自动训练机器人
 
 [English Document](README.md) | [中文(中华人民共和国)文档](README_zh_CN.md)| [中文(中華民國/台灣)文檔](README_zh_TW.md)
