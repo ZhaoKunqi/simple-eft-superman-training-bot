@@ -1,4 +1,4 @@
-好心人帮我翻译一下谢谢你
+有好心人帮忙翻译一下吗？谢谢你！
 
 
 # Escape from Tarkov: Super Fierce Hatchling Full-Auto training bot
