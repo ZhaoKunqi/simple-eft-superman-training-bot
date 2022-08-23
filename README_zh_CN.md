@@ -1,70 +1,68 @@
-好心人帮我翻译一下求你了
-
 # 逃离塔科夫: 超级凶狠跑刀崽全自动训练机器人
 
 [English Document](README.md) | [中文(中华人民共和国)文档](README_zh_CN.md)| [中文(中華民國/台灣)文檔](README_zh_TW.md)
 
-这个机器人是基于Arduino拥有USB能力的开发板, 在Arduino Leonardo和Arduino Pro Micro测试过(ATmega32u4).
+这个机器人是基于拥有USB能力的Arduino, 在Arduino Leonardo和Arduino Pro Micro测试过(ATmega32u4处理器).
 
 # 超级凶狠跑刀崽全自动训练机器人能做什么?
 
-this little project uses Arduino boards simulate Keyboards & Mice & Tablet , controlling your PC that running Escape from Tarkov game instance, mainly leveling up your in-game skills "**Endurance**", "**Strength**", "**Covert Movement**".
+这个小项目使用了Arduino来模拟了 键盘/鼠标/数位板 , 用来控制你正在运行逃离塔科夫的PC个人电脑, 主要可以提升你PMC角色的如下技能 "**耐力**", "**力量**", "**隐匿行动**".
 
-# How to run this bot and training your own muscle rat ?
+# 如何运行这个机器人来训练你的强壮老鼠人?
 
-1. You'll need a Arduino board that have ATmega32u4 processor on it, my recommendation is Arduino Leonardo(Arduino Official) or Arduino Pro Micro(3rd-party edition), because I've working on those 2 module for quite a while and all function running normal on those 2 module.
+1. 你需要一个带有ATmega32u4芯片的Arduino ,我的建议是 Arduino Leonardo(官方发行版) 或者 Arduino Pro Micro(第三方发行版), 因为我在设计、构建与测试这个项目的时候主要使用的就是这两个型号的Arduino.
   
-2. You'll need a PC capable to run EFT game instance at [1280x720 , minimal graphic quality, 30 FPS or higher]
+2. 你需要一个可以在1280*720分辨率(720P)和最低特效的情况下以约30帧/秒的帧数运行逃离塔科夫的PC个人电脑。
   
-3. You'll need Arduino IDE to upload the program into the board so your board can execute it.
+3. 你需要Arduino IDE来将代码上传到你的Arduino中,这样你才可以让它来执行代码.
   
-4. No specific display resolution requirements, but must be 16:9, for example : 1280x720, 1600x900 , 1920x1080 , 2560x1440
-  
-
-# How to upload the program into Arduino board ?
-
-1. First ,you'll need install Arduino IDE, if you don't have Arduino IDE installed or have no idea how to install it , you can check Arduino's tutorial here https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing
-  
-2. And then, you'll need install some additional libraries from Arduino's repository, you'll need both "HID-Project" and "elapsedMillis" libraries installed, if you don't know how to install it , you can check Arduino's tutorial here https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library
-  
-3. Now you can upload those code into your Arduino board via USB connection, if you don't know how, you can read this tutorial from Arduino here https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-uploading-a-sketch
-  
-  ## If it says "uploading done" , then congratulations !
-  
-  ## Your Arduino board will start running muscle rat about 10 second later~
+4. 没有特定的显示分辨率要求, 但是分辨率必须是16:9的, 比如 : 1280x720, 1600x900 , 1920x1080 , 2560x1440
   
 
-# Tips:
+# 如何将机器人代码上传到你的Arduino中?
 
-1. recommend settings for EFT
+1. 首先, 你需要安装Arduino IDE，如果你还没有安装Arduino IDE并且不知道如何安装, 你可以参考Arduino官方帮助文档 https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing
   
-  - [x] Display resolution - 1280x720
+2. 然后, 你需要在你的Arduino IDE中安装一些额外的库, 你需要你的在Arduino IDE安装 "HID-Project" 和"elapsedMillis"这两个库, 才能编译机器人代码并且上传。如果你不知道如何安装额外的库, 你可以参考Arduino的官方帮助文档 https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library
+  
+3. 最后, 你可以通过USB连接来上传代码到你的Arduino中了, 如果你不知道怎么上传，你可以参考Arduino的官方帮助文档 https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-uploading-a-sketch
+  
+  ## 如果它说"上传成功", 那么就恭喜你了 !
+  
+  ## 你的Arduino将会在大约10秒后开始执行肌肉鼠训练机器人~
+  
+
+# 小贴士:
+
+1. 推荐使用的逃离塔科夫游戏内设置
+  
+  - [x] 显示分辨率 - 1280x720
     
-  - [x] Display method - fullscreen or windowed borderless
+  - [x] 显示模式 - 全屏或无边框窗口化
     
-  - [x] Graphics setting - Everything to minimal
+  - [x] 显示效果设置 - 全拉到最低
     
-  - [x] Rendering scale - Lower the better
+  - [x] 渲染比例 - 越低越好
     
-  - [x] Lobby FPS limit - 60 FPS
+  - [x] 大厅帧率限制 - 60 FPS
     
-  - [x] Game FPS limit - 30 FPS
+  - [x] 战局内帧率限制 - 30 FPS
     
-2. after tested it can run normally, you can turnoff your display for power saving
+2. 在测试后如果你的机器人正常运行, 此时你可以考虑关闭显示屏来节省能源.
   
-3. you'll need something inside your secure container to overweight your rat,if you don't have item can do that,you'll be unable to level-up your strength.
+3. 如果你需要提升"**力量**"技能, 你将需要有一些物品装在你的安全保险箱(裤裆)内来让你的PMC角色超重, 如果安全保险箱(裤裆)内装载的物品没有让你的PMC角色超重, 那么这个机器人只会提升PMC角色的 "**耐力**" 和 "**隐匿行动**" 技能.
   
-4. DO NOT carrying anything outside your secure container to overweight your rat, your rat will 100% lose those !!!
+4. 不要在你的安全保险箱(裤裆)外携带任何装备, 因为机器人操控训练的PMC角色会死亡多次, 你将会失去这些装备, 并且无法提供超重力量加成!!!
   
 
-# Warning!
+# 警告!
 
-##### Running this might get your game account ban, because Nikita is a super sadism , if he or his puppetry saw your running this, they will very unhappy ! and very possible to ban your account !
+##### 使用这个机器人有可能让你的游戏账号被封禁, 因为尼基塔是施虐狂, 如果他或他的游戏运营团队发现你在不被毛子亲马虐待的同时提升你角色的属性, 他们会很不高兴, 并且有可能封禁你的游戏账号 !
 
-##### if you really get a ban, no liability or warranty ! before use this ,think twice !
+##### 如果你真的被封了, 机器人作者不符任何责任 ! 使用之前请想好 !
 
-~~im not sure cuz ive been test this since 2018 and never got ban, even with super muscle rat i still killed by those aim bot, im too stupid i shouldn't even buy and play this game, i can't stop playing this stuuupid game ,and those god damm chinese cheater never ends !~~
+~~我也不知道会不会被封,不过我自从2018开始开发测试这个机器人到现在都没被封过,挂了几个档刷到力量满耐力满什么的都没影响, 即便你的PMC角色满力量满耐力了见到挂哥也是没有机会生还的, 这游戏太自虐了, 我还对这个游戏上瘾了,还有那些中国的挂哥太猖狂了 !~~
 
-# For Developers that trying to tweak this bot for yourself:
+# 对那些想改进这个项目的开发者:
 
-You can use TarkovBotCoordinateConverter.py to calculate coordinate yourself, so when tarkov add new button or something, you can upgrade it yourself~
+你可以使用 TarkovBotCoordinateConverter.py 这个Python小程序来计算相对坐标, 如果毛子更新了新的按钮新的地图什么的, 你可以自己改进这个机器人~
