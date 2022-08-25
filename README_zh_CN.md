@@ -10,7 +10,7 @@
 
 # 如何运行这个机器人来训练你的强壮老鼠人?
 
-1. 你需要一个带有ATmega32u4芯片的Arduino ,我的建议是 Arduino Leonardo(官方发行版) 或者 Arduino Pro Micro(第三方发行版), 因为我在设计、构建与测试这个项目的时候主要使用的就是这两个型号的Arduino.
+1. 你需要一个带有ATmega32u4芯片(或者被Arduino声明支援USB模式)的Arduino ,我的建议是 Arduino Leonardo(官方发行版) 或者 Arduino Pro Micro(第三方发行版), 因为我在设计、构建与测试这个项目的时候主要使用的就是这两个型号的Arduino, 我并没有在其他Arduino型号上测试过, 若有需要请自行尝试.
   
 2. 你需要一个可以在1280*720分辨率(720P)和最低特效的情况下以约30帧/秒的帧数运行逃离塔科夫的PC个人电脑。
   
