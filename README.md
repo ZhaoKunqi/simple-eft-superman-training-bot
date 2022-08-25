@@ -10,7 +10,7 @@ this little project uses Arduino boards simulate Keyboards & Mice & Tablet , con
 
 # How to run this bot and training your own muscle rat ?
 
-1. You'll need a Arduino board that have ATmega32u4 processor on it, my recommendation is Arduino Leonardo(Arduino Official) or Arduino Pro Micro(3rd-party edition), because I've working on those 2 module for quite a while and all function running normal on those 2 module.
+1. You'll need a Arduino board that have ATmega32u4 processor on it(or supporting USB capabilitie), my recommendation is Arduino Leonardo(Arduino Official) or Arduino Pro Micro(3rd-party edition), because I've working on those 2 module for quite a while and all function running normal on those 2 module, if you have other Arduino board that supports USB, please feel free try it out yourself.
   
 2. You'll need a PC capable to run EFT game instance at [1280x720 , minimal graphic quality, 30 FPS or higher]
   
