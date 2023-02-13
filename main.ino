@@ -110,6 +110,8 @@ void enterRaid(){
   //Factory(-7552,-5961)  this is a bit stupid tbh, but you can try that out lol
   //Reserve(-13030,-1547)
   //Shoreline (-9728, 10467)
+  //Lighthouse (-9728, 10467)
+  //Street (-9728, 10467)
   //I never played tarkov after lighthouse patch, so feel free add lighthouse coordinate yourself by TarkovBotCoordinateConverter.py
   clickLeftMouseButton();
   AbsoluteMouse.moveTo(10163, 28535); //Move to "Ready" button
