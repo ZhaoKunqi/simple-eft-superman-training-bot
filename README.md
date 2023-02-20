@@ -65,4 +65,4 @@ this little project uses Arduino boards simulate Keyboards & Mice & Tablet , con
 
 # For Developers that trying to tweak this bot for yourself:
 
-You can use TarkovBotCoordinateConverter.py to calculate coordinate yourself, so when tarkov add new button or something, you can upgrade it yourself~
+You can use TarkovBotCoordinateConverter.py to calculate coordinate yourself, so when tarkov add new button or something, you can edit the main.ino file to adapt new game buttons by yourself.
