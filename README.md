@@ -61,7 +61,7 @@ this little project uses Arduino boards simulate Keyboards & Mice & Tablet , con
 
 ##### if you really get a ban, no liability or warranty ! before use this ,think twice !
 
-~~im not sure cuz ive been test this since 2018 and never got ban, even with super muscle rat i still killed by those aim bot, im too stupid i shouldn't even buy and play this game, i can't stop playing this stuuupid game ,and those god damm chinese cheater never ends !~~
+im not sure cuz ive been test this since 2018 and never got ban, even with super muscle rat i still killed by those aim bot chaters
 
 # For Developers that trying to tweak this bot for yourself:
 
