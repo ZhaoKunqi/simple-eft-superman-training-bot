@@ -61,8 +61,6 @@ this little project uses Arduino boards simulate Keyboards & Mice & Tablet , con
 
 ##### if you really get a ban, no liability or warranty ! before use this ,think twice !
 
-im not sure cuz ive been test this since 2018 and never got ban, even with super muscle rat i still killed by those aim bot chaters
-
 # For Developers that trying to tweak this bot for yourself:
 
 You can use TarkovBotCoordinateConverter.py to calculate coordinate yourself, so when tarkov add new button or something, you can edit the main.ino file to adapt new game buttons by yourself.
