@@ -1,6 +1,6 @@
 # Escape from Tarkov: Super Fierce Hatchling Full-Auto training bot
 
-[English Document(This page)](README.md) | [中文(中华人民共和国)文档](README_zh_CN.md)|
+[English Document(This page)](README.md) 
 
 This bot is based on Arduino board that have USB capabilities, tested on Arduino Leonardo and Arduino Pro Micro(ATmega32u4).
 
